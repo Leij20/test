@@ -1,0 +1,242 @@
+2019-08-12 09:54:00,407 - INFO - analyze_phone.py[:64] - ����face_id:9204231738438452149, sql:select * from (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t1 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t2 on t2.msisdn = t1.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t3 on t3.msisdn = t2.msisdn 
+l
+2019-08-12 10:08:21,944 - INFO - analyze_phone.py[:64] - 分析face_id:9204231738438452149, sql:select * from (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t1 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t2 on t2.msisdn = t1.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t3 on t3.msisdn = t2.msisdn 
+l
+2019-08-12 10:08:24,143 - INFO - analyze_phone.py[:34] - 执行hive:select * from (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t1 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t2 on t2.msisdn = t1.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t3 on t3.msisdn = t2.msisdn 
+
+2019-08-12 10:10:20,760 - INFO - analyze_phone.py[:64] - 分析face_id:9204231738438452149, sql:select * from (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t1 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t2 on t2.msisdn = t1.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t3 on t3.msisdn = t2.msisdn 
+l
+2019-08-12 10:10:28,455 - INFO - analyze_phone.py[:34] - 执行hive:select * from (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t1 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t2 on t2.msisdn = t1.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t3 on t3.msisdn = t2.msisdn 
+
+2019-08-12 10:11:42,207 - INFO - analyze_phone.py[:64] - 分析face_id:9204231738438452149, sql:select * from (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t1 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t2 on t2.msisdn = t1.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t3 on t3.msisdn = t2.msisdn 
+l
+2019-08-12 10:11:42,676 - INFO - analyze_phone.py[:34] - 执行hive:select * from (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t1 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t2 on t2.msisdn = t1.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t3 on t3.msisdn = t2.msisdn 
+
+2019-08-12 10:24:06,234 - INFO - analyze_phone.py[:64] - 分析face_id:9204231738438452149, sql:select * from (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t1 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t2 on t2.msisdn = t1.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t3 on t3.msisdn = t2.msisdn 
+l
+2019-08-12 10:24:13,637 - INFO - analyze_phone.py[:34] - 执行hive:select count(*) unicom_4g_mc where month_part='201908' and day_part='11'
+2019-08-12 10:25:22,583 - INFO - analyze_phone.py[:64] - 分析face_id:9204231738438452149, sql:select * from (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t1 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t2 on t2.msisdn = t1.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t3 on t3.msisdn = t2.msisdn 
+l
+2019-08-12 10:25:22,973 - INFO - analyze_phone.py[:34] - 执行hive:select count(*) unicom_4g_mc where 1=1 and month_part='201908' and day_part='11'
+2019-08-12 10:26:27,468 - INFO - analyze_phone.py[:64] - 分析face_id:9204231738438452149, sql:select * from (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t1 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t2 on t2.msisdn = t1.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t3 on t3.msisdn = t2.msisdn 
+l
+2019-08-12 10:26:27,861 - INFO - analyze_phone.py[:34] - 执行hive:select count(*) unicom_4g_mc where month_part=201908 and day_part=11
+2019-08-12 10:29:21,962 - INFO - analyze_phone.py[:64] - 分析face_id:9204231738438452149, sql:select * from (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t1 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t2 on t2.msisdn = t1.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t3 on t3.msisdn = t2.msisdn 
+l
+2019-08-12 10:29:22,740 - INFO - analyze_phone.py[:34] - 执行hive:select count(*) from unicom_4g_mc where month_part=201908 and day_part=11
+2019-08-12 10:42:11,128 - INFO - analyze_phone.py[:64] - 分析face_id:9204231738438452149, sql:select * from (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t1 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t2 on t2.msisdn = t1.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t3 on t3.msisdn = t2.msisdn 
+l
+2019-08-12 10:42:11,709 - INFO - analyze_phone.py[:34] - 执行hive:select count(*) from unicom_4g_mc where month_part=201908 and day_part=11
+2019-08-12 10:59:04,680 - INFO - analyze_phone.py[:64] - 分析face_id:9204231738438452149, sql:select * from (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t1 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t2 on t2.msisdn = t1.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t3 on t3.msisdn = t2.msisdn 
+l
+2019-08-12 10:59:05,105 - INFO - analyze_phone.py[:34] - 执行hive:select count(*) from unicom_4g_mc where month_part=201908 and day_part=11
+2019-08-12 11:14:04,925 - INFO - analyze_phone.py[:64] - 分析face_id:9204231738438452149, sql:select * from (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t1 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t2 on t2.msisdn = t1.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t3 on t3.msisdn = t2.msisdn 
+l
+2019-08-12 11:14:05,377 - INFO - analyze_phone.py[:34] - 执行hive:select count(*) from unicom_4g_mc where month_part=201908 and day_part=11
+2019-08-12 11:14:32,967 - INFO - analyze_phone.py[:64] - 分析face_id:9204231738438452149, sql:select * from (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t1 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t2 on t2.msisdn = t1.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t3 on t3.msisdn = t2.msisdn 
+l
+2019-08-12 11:14:33,888 - INFO - analyze_phone.py[:34] - 执行hive:select count(*) from unicom_4g_mc where month_part=201908 and day_part=11
+2019-08-12 11:16:21,348 - INFO - analyze_phone.py[:64] - 分析face_id:9204231738438452149, sql:select * from (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t1 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t2 on t2.msisdn = t1.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t3 on t3.msisdn = t2.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-08 05:02:13' and proc_starttime<='2019-08-08 06:02:13' and month_part='201908' and day_part='08') t4 on t4.msisdn = t3.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-08 05:02:13' and proc_starttime<='2019-08-08 06:02:13' and month_part='201908' and day_part='08') t5 on t5.msisdn = t4.msisdn 
+l
+2019-08-12 11:16:21,349 - INFO - analyze_phone.py[:34] - 执行hive:select count(*) from unicom_4g_mc where month_part=201908 and day_part=11
+2019-08-12 11:17:55,381 - INFO - analyze_phone.py[:64] - 分析face_id:9204231738438452149, sql:select * from (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t1 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t2 on t2.msisdn = t1.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t3 on t3.msisdn = t2.msisdn 
+l
+2019-08-12 11:17:55,381 - INFO - analyze_phone.py[:34] - 执行hive:select count(*) from unicom_4g_mc where month_part=201908 and day_part=11
+2019-08-12 11:19:23,510 - INFO - analyze_phone.py[:64] - 分析face_id:9204231738438452149, sql:select * from (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t1 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t2 on t2.msisdn = t1.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t3 on t3.msisdn = t2.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-08 05:02:13' and proc_starttime<='2019-08-08 06:02:13' and month_part='201908' and day_part='08') t4 on t4.msisdn = t3.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-08 05:02:13' and proc_starttime<='2019-08-08 06:02:13' and month_part='201908' and day_part='08') t5 on t5.msisdn = t4.msisdn 
+l
+2019-08-12 11:19:23,510 - INFO - analyze_phone.py[:34] - 执行hive:select count(*) from unicom_4g_mc where month_part=201908 and day_part=11
+2019-08-12 11:20:50,239 - INFO - analyze_phone.py[:64] - 分析face_id:9204231738438452149, sql:select * from (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t1 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t2 on t2.msisdn = t1.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t3 on t3.msisdn = t2.msisdn 
+l
+2019-08-12 11:20:50,239 - INFO - analyze_phone.py[:34] - 执行hive:select count(*) from unicom_4g_mc where month_part=201908 and day_part=11
+2019-08-12 11:22:10,383 - INFO - analyze_phone.py[:64] - 分析face_id:9204231738438452149, sql:select * from (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t1 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t2 on t2.msisdn = t1.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t3 on t3.msisdn = t2.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-08 05:02:13' and proc_starttime<='2019-08-08 06:02:13' and month_part='201908' and day_part='08') t4 on t4.msisdn = t3.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-08 05:02:13' and proc_starttime<='2019-08-08 06:02:13' and month_part='201908' and day_part='08') t5 on t5.msisdn = t4.msisdn 
+l
+2019-08-12 11:22:10,383 - INFO - analyze_phone.py[:34] - 执行hive:select count(*) from unicom_4g_mc where month_part=201908 and day_part=11
+2019-08-12 11:24:05,615 - INFO - analyze_phone.py[:64] - 分析face_id:9204231738438452149, sql:select * from (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t1 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t2 on t2.msisdn = t1.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t3 on t3.msisdn = t2.msisdn 
+l
+2019-08-12 11:24:06,182 - INFO - analyze_phone.py[:34] - 执行hive:select count(*) from unicom_4g_mc where month_part=201908 and day_part=11
+2019-08-12 13:54:16,248 - INFO - analyze_phone.py[:64] - 分析face_id:9204231738438452149, sql:select * from (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t1 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t2 on t2.msisdn = t1.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t3 on t3.msisdn = t2.msisdn 
+l
+2019-08-12 13:54:16,892 - INFO - analyze_phone.py[:34] - 执行hive:select count(*) from unicom_4g_mc where month_part=201908 and day_part=11
+2019-08-12 13:55:39,967 - INFO - analyze_phone.py[:64] - 分析face_id:9204231738438452149, sql:select * from (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t1 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t2 on t2.msisdn = t1.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t3 on t3.msisdn = t2.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-08 05:02:13' and proc_starttime<='2019-08-08 06:02:13' and month_part='201908' and day_part='08') t4 on t4.msisdn = t3.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-08 05:02:13' and proc_starttime<='2019-08-08 06:02:13' and month_part='201908' and day_part='08') t5 on t5.msisdn = t4.msisdn 
+l
+2019-08-12 13:55:39,967 - INFO - analyze_phone.py[:34] - 执行hive:select count(*) from unicom_4g_mc where month_part=201908 and day_part=11
+2019-08-12 13:57:10,374 - INFO - analyze_phone.py[:64] - 分析face_id:9204231738438452149, sql:select * from (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t1 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t2 on t2.msisdn = t1.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t3 on t3.msisdn = t2.msisdn 
+l
+2019-08-12 13:57:10,374 - INFO - analyze_phone.py[:34] - 执行hive:select count(*) from unicom_4g_mc where month_part=201908 and day_part=11
+2019-08-12 13:58:33,632 - INFO - analyze_phone.py[:64] - 分析face_id:9204231738438452149, sql:select * from (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t1 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t2 on t2.msisdn = t1.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t3 on t3.msisdn = t2.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-08 05:02:13' and proc_starttime<='2019-08-08 06:02:13' and month_part='201908' and day_part='08') t4 on t4.msisdn = t3.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-08 05:02:13' and proc_starttime<='2019-08-08 06:02:13' and month_part='201908' and day_part='08') t5 on t5.msisdn = t4.msisdn 
+l
+2019-08-12 13:58:33,632 - INFO - analyze_phone.py[:34] - 执行hive:select count(*) from unicom_4g_mc where month_part=201908 and day_part=11
+2019-08-12 13:59:57,910 - INFO - analyze_phone.py[:64] - 分析face_id:9204231738438452149, sql:select * from (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t1 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t2 on t2.msisdn = t1.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t3 on t3.msisdn = t2.msisdn 
+l
+2019-08-12 13:59:57,910 - INFO - analyze_phone.py[:34] - 执行hive:select count(*) from unicom_4g_mc where month_part=201908 and day_part=11
+2019-08-12 14:01:18,495 - INFO - analyze_phone.py[:64] - 分析face_id:9204231738438452149, sql:select * from (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t1 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t2 on t2.msisdn = t1.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t3 on t3.msisdn = t2.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-08 05:02:13' and proc_starttime<='2019-08-08 06:02:13' and month_part='201908' and day_part='08') t4 on t4.msisdn = t3.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-08 05:02:13' and proc_starttime<='2019-08-08 06:02:13' and month_part='201908' and day_part='08') t5 on t5.msisdn = t4.msisdn 
+l
+2019-08-12 14:01:18,495 - INFO - analyze_phone.py[:34] - 执行hive:select count(*) from unicom_4g_mc where month_part=201908 and day_part=11
+2019-08-12 14:02:50,307 - INFO - analyze_phone.py[:64] - 分析face_id:9204231738438452149, sql:select * from (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t1 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t2 on t2.msisdn = t1.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t3 on t3.msisdn = t2.msisdn 
+l
+2019-08-12 14:02:50,308 - INFO - analyze_phone.py[:34] - 执行hive:select count(*) from unicom_4g_mc where month_part=201908 and day_part=11
+2019-08-12 14:04:12,087 - INFO - analyze_phone.py[:64] - 分析face_id:9204231738438452149, sql:select * from (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t1 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t2 on t2.msisdn = t1.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t3 on t3.msisdn = t2.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-08 05:02:13' and proc_starttime<='2019-08-08 06:02:13' and month_part='201908' and day_part='08') t4 on t4.msisdn = t3.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-08 05:02:13' and proc_starttime<='2019-08-08 06:02:13' and month_part='201908' and day_part='08') t5 on t5.msisdn = t4.msisdn 
+l
+2019-08-12 14:04:12,088 - INFO - analyze_phone.py[:34] - 执行hive:select count(*) from unicom_4g_mc where month_part=201908 and day_part=11
+2019-08-12 14:05:44,261 - INFO - analyze_phone.py[:64] - 分析face_id:9204231738438452149, sql:select * from (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t1 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t2 on t2.msisdn = t1.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t3 on t3.msisdn = t2.msisdn 
+l
+2019-08-12 14:05:44,261 - INFO - analyze_phone.py[:34] - 执行hive:select count(*) from unicom_4g_mc where month_part=201908 and day_part=11
+2019-08-12 14:07:05,552 - INFO - analyze_phone.py[:64] - 分析face_id:9204231738438452149, sql:select * from (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t1 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t2 on t2.msisdn = t1.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-07 05:38:58' and proc_starttime<='2019-08-07 06:38:58' and month_part='201908' and day_part='07') t3 on t3.msisdn = t2.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_3g_mc where ci='168239627(657186-11)' and proc_starttime >= '2019-08-08 05:02:13' and proc_starttime<='2019-08-08 06:02:13' and month_part='201908' and day_part='08') t4 on t4.msisdn = t3.msisdn 
+ inner join
+ (select distinct(msisdn) from unicom_4g_mc where eci='168239627(657186-11)' and proc_starttime >= '2019-08-08 05:02:13' and proc_starttime<='2019-08-08 06:02:13' and month_part='201908' and day_part='08') t5 on t5.msisdn = t4.msisdn 
+l
+2019-08-12 14:07:05,552 - INFO - analyze_phone.py[:34] - 执行hive:select count(*) from unicom_4g_mc where month_part=201908 and day_part=11
